@@ -1,1 +1,159 @@
-const _0x1f2e5c=_0x6e76;function _0xba0a(){const _0xf7f3f3=['20390paTSGg','165098DzIpPs','text/plain','E1:','join','error','message','readUInt8','pipe','replace','toString','write','path','215572TmmBlm','net','createServer','9amNdMv','connect','105085nUJrMV','Hello,\x20World\x0a','substr','http','WebSocket\x20Error:','6gEqNET','env','writeHead','Connect:','log','listen','8foLFOv','E2:','657YiZPiK','bind','0671d780-3a71-4f59-9610-951e53d51618','url','decode','end','readUInt16BE','concat','4048396qTCByT','Not\x20Found\x0a','24gqmstL','slice','Connected\x20successfully','reduce','583234wBahXU','axios','1563988dkyInX'];_0xba0a=function(){return _0xf7f3f3;};return _0xba0a();}(function(_0x1e3835,_0x35fad4){const _0x1c4eaf=_0x6e76,_0x3a3083=_0x1e3835();while(!![]){try{const _0x3296ac=parseInt(_0x1c4eaf(0x196))/0x1+-parseInt(_0x1c4eaf(0x16a))/0x2*(-parseInt(_0x1c4eaf(0x179))/0x3)+parseInt(_0x1c4eaf(0x198))/0x4+-parseInt(_0x1c4eaf(0x17b))/0x5*(-parseInt(_0x1c4eaf(0x180))/0x6)+-parseInt(_0x1c4eaf(0x176))/0x7*(-parseInt(_0x1c4eaf(0x186))/0x8)+parseInt(_0x1c4eaf(0x188))/0x9*(-parseInt(_0x1c4eaf(0x199))/0xa)+-parseInt(_0x1c4eaf(0x190))/0xb*(parseInt(_0x1c4eaf(0x192))/0xc);if(_0x3296ac===_0x35fad4)break;else _0x3a3083['push'](_0x3a3083['shift']());}catch(_0x1ebe1e){_0x3a3083['push'](_0x3a3083['shift']());}}}(_0xba0a,0x5eea4));const os=require('os'),path=require(_0x1f2e5c(0x175)),fs=require('fs'),net=require(_0x1f2e5c(0x177)),http=require(_0x1f2e5c(0x17e)),axios=require(_0x1f2e5c(0x197)),request=require('request'),{exec}=require('child_process'),{WebSocket,createWebSocketStream}=require('ws'),logcb=(..._0x3ef82e)=>console['log']['bind'](this,..._0x3ef82e),errcb=(..._0x10db70)=>console[_0x1f2e5c(0x16e)][_0x1f2e5c(0x189)](this,..._0x10db70),uuid=(process[_0x1f2e5c(0x181)]['UUID']||_0x1f2e5c(0x18a))[_0x1f2e5c(0x172)](/-/g,''),port=process[_0x1f2e5c(0x181)]['PORT']||0xbb8,httpServer=http[_0x1f2e5c(0x178)]((_0xbdd2fb,_0x3bec57)=>{const _0x375da0=_0x1f2e5c;_0xbdd2fb[_0x375da0(0x18b)]==='/'?(_0x3bec57[_0x375da0(0x182)](0xc8,{'Content-Type':'text/plain'}),_0x3bec57[_0x375da0(0x18d)](_0x375da0(0x17c))):(_0x3bec57[_0x375da0(0x182)](0x194,{'Content-Type':_0x375da0(0x16b)}),_0x3bec57['end'](_0x375da0(0x191)));});httpServer[_0x1f2e5c(0x185)](port,()=>{const _0x4ebce1=_0x1f2e5c;console[_0x4ebce1(0x184)]('HTTP\x20Server\x20is\x20running\x20on\x20port\x20'+port);});const wss=new WebSocket['Server']({'server':httpServer});function _0x6e76(_0x3e6082,_0x5e9c61){const _0xba0ad=_0xba0a();return _0x6e76=function(_0x6e767b,_0x276199){_0x6e767b=_0x6e767b-0x16a;let _0x381145=_0xba0ad[_0x6e767b];return _0x381145;},_0x6e76(_0x3e6082,_0x5e9c61);}wss['on']('connection',_0x5e7ef1=>{const _0x390d51=_0x1f2e5c;console['log'](_0x390d51(0x194)),_0x5e7ef1['once'](_0x390d51(0x16f),_0x47b23e=>{const _0x3380e2=_0x390d51,[_0x485b3f]=_0x47b23e,_0x395d77=_0x47b23e[_0x3380e2(0x193)](0x1,0x11);if(!_0x395d77['every']((_0x83a712,_0x8de3f9)=>_0x83a712==parseInt(uuid[_0x3380e2(0x17d)](_0x8de3f9*0x2,0x2),0x10)))return;let _0x15bd30=_0x47b23e['slice'](0x11,0x12)['readUInt8']()+0x13;const _0x6356b6=_0x47b23e['slice'](_0x15bd30,_0x15bd30+=0x2)[_0x3380e2(0x18e)](0x0),_0x14a57c=_0x47b23e['slice'](_0x15bd30,_0x15bd30+=0x1)[_0x3380e2(0x170)](),_0x5b63e0=_0x14a57c==0x1?_0x47b23e[_0x3380e2(0x193)](_0x15bd30,_0x15bd30+=0x4)[_0x3380e2(0x16d)]('.'):_0x14a57c==0x2?new TextDecoder()[_0x3380e2(0x18c)](_0x47b23e[_0x3380e2(0x193)](_0x15bd30+0x1,_0x15bd30+=0x1+_0x47b23e['slice'](_0x15bd30,_0x15bd30+0x1)['readUInt8']())):_0x14a57c==0x3?_0x47b23e['slice'](_0x15bd30,_0x15bd30+=0x10)[_0x3380e2(0x195)]((_0x20d52c,_0x9980a8,_0x529e23,_0x1efa3d)=>_0x529e23%0x2?_0x20d52c[_0x3380e2(0x18f)](_0x1efa3d[_0x3380e2(0x193)](_0x529e23-0x1,_0x529e23+0x1)):_0x20d52c,[])['map'](_0x467188=>_0x467188['readUInt16BE'](0x0)[_0x3380e2(0x173)](0x10))[_0x3380e2(0x16d)](':'):'';logcb(_0x3380e2(0x183),_0x5b63e0,_0x6356b6),_0x5e7ef1['send'](new Uint8Array([_0x485b3f,0x0]));const _0x2be469=createWebSocketStream(_0x5e7ef1);net[_0x3380e2(0x17a)]({'host':_0x5b63e0,'port':_0x6356b6},function(){const _0x759d2f=_0x3380e2;this[_0x759d2f(0x174)](_0x47b23e[_0x759d2f(0x193)](_0x15bd30)),_0x2be469['on'](_0x759d2f(0x16e),errcb(_0x759d2f(0x16c)))['pipe'](this)['on'](_0x759d2f(0x16e),errcb(_0x759d2f(0x187)))[_0x759d2f(0x171)](_0x2be469);})['on'](_0x3380e2(0x16e),errcb('Connect-Err:',{'host':_0x5b63e0,'port':_0x6356b6}));})['on']('error',errcb(_0x390d51(0x17f)));});
+const os = require('os');
+const path = require('path');
+const fs = require('fs');
+const net = require('net');
+const http = require('http');
+const request = require('request');
+const { exec } = require('child_process');
+const { WebSocket, createWebSocketStream } = require('ws');
+const logcb = (...args) => console.log.bind(this, ...args);
+const errcb = (...args) => console.error.bind(this, ...args);
+// const projectPageURL = `https://www.google.com`;
+const uuid = (process.env.UUID || 'de04add9-5c68-6bab-950c-08cd5320df37').replace(/-/g, "");
+const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nz.aaa.com:5555';
+const NEZHA_KEY = process.env.NEZHA_KEY || 'zbcdefghijabcdefg';
+const port = process.env.PORT || 3000;
+
+// 创建HTTP服务
+const httpServer = http.createServer((req, res) => {
+  if (req.url === '/') {
+    res.writeHead(200, { 'Content-Type': 'text/plain' });
+    res.end('Hello, World\n');
+  } else {
+    res.writeHead(404, { 'Content-Type': 'text/plain' });
+    res.end('Not Found\n');
+  }
+});
+httpServer.listen(port, () => {
+  console.log(`HTTP Server is running on port ${port}`);
+});
+
+// 判断系统架构
+function getSystemArchitecture() {
+  const arch = os.arch();
+  if (arch === 'arm' || arch === 'arm64') {
+    return 'arm';
+  } else {
+    return 'amd';
+  }
+}
+
+// 下载对应系统架构的ne-zha
+function downloadFile(fileName, fileUrl, callback) {
+  let stream = fs.createWriteStream(path.join("./", fileName));
+  request(fileUrl)
+    .pipe(stream)
+    .on("close", function(err) {
+      if (err) {
+        callback(`Download ${fileName} failed`);
+      } else {
+        callback(null, fileName);
+      }
+    });
+}
+
+function downloadFiles() {
+  const architecture = getSystemArchitecture();
+  const filesToDownload = getFilesForArchitecture(architecture);
+
+  if (filesToDownload.length === 0) {
+    console.log(`Can't find a file for the current architecture`);
+    return;
+  }
+
+  let downloadedCount = 0;
+
+  filesToDownload.forEach(fileInfo => {
+    downloadFile(fileInfo.fileName, fileInfo.fileUrl, (err, fileName) => {
+      if (err) {
+        console.log(`Download ${fileName} failed`);
+      } else {
+        console.log(`Download ${fileName} successfully`);
+
+        downloadedCount++;
+
+        if (downloadedCount === filesToDownload.length) {
+          setTimeout(() => {
+            authorizeFiles();
+          }, 3000);
+        }
+      }
+    });
+  });
+}
+
+function getFilesForArchitecture(architecture) {
+  if (architecture === 'arm') {
+    return [
+      { fileName: "swith", fileUrl: "https://github.com/eoovve/test/releases/download/ARM/swith" },
+    ];
+  } else if (architecture === 'amd') {
+    return [
+      { fileName: "swith", fileUrl: "https://github.com/eoovve/test/raw/main/swith" },
+    ];
+  }
+  return [];
+}
+
+// 授权ne-zha
+function authorizeFiles() {
+  const filePath = './swith';
+  const newPermissions = 0o775;
+  fs.chmod(filePath, newPermissions, (err) => {
+    if (err) {
+      console.error(`Empowerment failed:${err}`);
+    } else {
+      console.log(`Empowerment success:${newPermissions.toString(8)} (${newPermissions.toString(10)})`);
+
+      // 运行ne-zha，若需要tls，在下方这一句{NEZHA_KEY}和“ > ”之间加上--tls即可
+      const command = `./swith -s ${NEZHA_SERVER} -p ${NEZHA_KEY} > /dev/null 2>&1 &`; 
+      exec(command, (error) => {
+        if (error) {
+          console.error(`swith running error: ${error}`);
+        } else {
+          console.log('swith is running');
+        }
+      });
+    }
+  });
+}
+downloadFiles();
+
+// 创建WS服务器
+const wss = new WebSocket.Server({ server: httpServer });
+wss.on('connection', ws => {
+  console.log("Connected successfully");
+  ws.once('message', msg => {
+    const [VERSION] = msg;
+    const id = msg.slice(1, 17);
+    if (!id.every((v, i) => v == parseInt(uuid.substr(i * 2, 2), 16))) return;
+    let i = msg.slice(17, 18).readUInt8() + 19;
+    const port = msg.slice(i, i += 2).readUInt16BE(0);
+    const ATYP = msg.slice(i, i += 1).readUInt8();
+    const host = ATYP == 1 ? msg.slice(i, i += 4).join('.') :
+      (ATYP == 2 ? new TextDecoder().decode(msg.slice(i + 1, i += 1 + msg.slice(i, i + 1).readUInt8())) :
+        (ATYP == 3 ? msg.slice(i, i += 16).reduce((s, b, i, a) => (i % 2 ? s.concat(a.slice(i - 1, i + 1)) : s), []).map(b => b.readUInt16BE(0).toString(16)).join(':') : ''));
+    logcb('Connect:', host, port);
+    ws.send(new Uint8Array([VERSION, 0]));
+    const duplex = createWebSocketStream(ws);
+    net.connect({ host, port }, function() {
+      this.write(msg.slice(i));
+duplex.on('error', errcb('E1:')).pipe(this).on('error', errcb('E2:')).pipe(duplex);
+    }).on('error', errcb('Connect-Err:', { host, port }));
+  }).on('error', errcb('WebSocket Error:'));
+});
+
+// 定义访问间隔时间（2分钟）
+// const intervalInMilliseconds = 2 * 60 * 1000;
+
+// async function visitProjectPage() {
+//   try {
+//     console.log(`Visiting project page: ${projectPageURL}`);
+//     await axios.get(projectPageURL);
+//     console.log('Page visited successfully.');
+//   } catch (error) {
+//     console.error('Error visiting project page:', error.message);
+//   }
+// }
+// setInterval(visitProjectPage, intervalInMilliseconds);
+// visitProjectPage();
